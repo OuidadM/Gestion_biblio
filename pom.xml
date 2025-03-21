@@ -18,6 +18,11 @@
   </properties>
 
   <dependencies>
+      <dependency>
+          <groupId>org.apache.tomcat.embed</groupId>
+          <artifactId>tomcat-embed-core</artifactId>
+          <version>10.1.10</version> <!-- Vérifie la version la plus récente -->
+      </dependency>
       <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
       <dependency>
           <groupId>com.google.code.gson</groupId>
